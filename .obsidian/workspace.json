@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a1a437b15317ffc0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Flutter/Flutter 설치하는 방법.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My first note.md",
+                "file": "Flutter/Flutter 설치하는 방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My first note.md",
+                "file": "Flutter/Flutter 설치하는 방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "My first note.md"
+                "file": "Flutter/Flutter 설치하는 방법.md"
               }
             }
           },
@@ -154,8 +167,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2f7b13b1b0723d75",
+  "active": "a1a437b15317ffc0",
   "lastOpenFiles": [
-    "My first note.md"
+    "스크린샷 2023-10-04 오후 12.22.11.png",
+    "스크린샷 2023-10-04 오후 12.21.36.png",
+    "My first note.md",
+    "Flutter/Flutter 설치하는 방법.md",
+    "Flutter"
   ]
 }
