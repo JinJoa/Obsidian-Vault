@@ -8,7 +8,24 @@
 	바로 which flutter를 할 경우, 다음과 같이 명령어를 찾지 못한다. 
 	![[스크린샷 2023-10-04 오후 12.27.41.png]]
 5. flutter doctor 명령어 이후에 나오는 체크리스트를 해결한다. ![[스크린샷 2023-10-04 오후 12.31.49.png]]
-	안드로이드와 Xcode에서 이슈가 생겼다.
+	나의 경우 안드로이드와 Xcode에서 이슈가 생겼다. 
 	안드로이드)
+	 **✗** **cmdline-tools component is missing**
 	1. Android Studio > Check for Updeates... -> 새로운 버전이 있길래 새로 깔아줌.
-	2. **Run `path/to/sdkmanager --install "cmdline-tools;latest"`** 이 명령어를 사용하거나, Tools > SDK 
+	2. **Run `path/to/sdkmanager --install "cmdline-tools;latest"`** 이 명령어를 사용하거나, Tools > SDK Manager > SDK Tools에서 언급된 툴을 체크 후 OK를 누르면 된다. ![[스크린샷 2023-10-04 오후 12.39.24.png]]
+	 **✗** **Android license status unknown.**
+	 1.  **Run `flutter doctor --android-licenses` to accept the SDK licenses.** 실행하면 여러줄의 라이센스 조항이 나오는데 전부 'y'를 치면 된다.
+	 Xcode)
+	  1. 업데이트 확인후
+	  2.         **sudo xcode-select --switch/Applications/Xcode.app/Contents/Developer**
+	  3.      **sudo xcodebuild -runFirstLaunch**
+	  두 명령어를 순차적으로 쳐준다.
+이제 다시 flutter doctor 명령어를 치면 이슈가 없다고 나온다.
+
+
+6. 새로운 flutter파일을 만들고 싶은 디렉토리로 이동한뒤, 다음 명령어들을 치면
+	flutter create hello_flutter
+	cd hello_flutter
+	flutter run
+
+   ![[스크린샷 2023-10-04 오후 12.46.26.png]] 이렇게 뜬다. 이중 2번
